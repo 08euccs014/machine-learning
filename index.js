@@ -25,7 +25,8 @@ app.post('/recognize', upload.single('face'), async function (req, res, next) {
 
     const tempPrediction = await model.classify(imageTensor);
 
-    return res.send(JSON.stringify(tempPrediction));
+    res.json(tempPrediction);
+    return res.end();
 })
 
 app.get('/', (req, res) => {
