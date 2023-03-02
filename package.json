@@ -1,0 +1,18 @@
+{
+  "name": "face-cognition",
+  "version": "1.0.0",
+  "description": "tensor flow face recognition",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mohit Agrawal",
+  "license": "ISC",
+  "dependencies": {
+    "@tensorflow-models/mobilenet": "^2.1.0",
+    "@tensorflow/tfjs": "^4.2.0",
+    "@tensorflow/tfjs-node": "^4.2.0",
+    "express": "^4.18.2",
+    "multer": "^1.4.5-lts.1"
+  }
+}
